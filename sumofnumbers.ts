@@ -16,7 +16,7 @@ function sumWhile(list: number[]): number {
   return sum;
 }
 
-function sumRecursion(list: number[]): number {
+function sumRecursion(list: number[]):number {
   if (list.length === 0) {
     return 0;
   }
